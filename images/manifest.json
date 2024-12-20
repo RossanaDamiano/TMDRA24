@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://RossanaDamiano.github.io/TMDRA24/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in RossanaDamiano/TMDRA24 project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://RossanaDamiano.github.io/TMDRA24/images/room/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "room"
+                ]
+            },
+            "height": 427,
+            "width": 640,
+            "items": [
+                {
+                    "id": "https://RossanaDamiano.github.io/TMDRA24/images/room/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://RossanaDamiano.github.io/TMDRA24/images/room/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://RossanaDamiano.github.io/TMDRA24/images/room/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 20,
+                                                "height": 14
+                                            },
+                                            {
+                                                "width": 40,
+                                                "height": 27
+                                            },
+                                            {
+                                                "width": 80,
+                                                "height": 54
+                                            },
+                                            {
+                                                "width": 160,
+                                                "height": 107
+                                            },
+                                            {
+                                                "width": 320,
+                                                "height": 214
+                                            },
+                                            {
+                                                "width": 640,
+                                                "height": 427
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 640,
+                                        "@id": "https://RossanaDamiano.github.io/TMDRA24/images/room",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 427,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://RossanaDamiano.github.io/TMDRA24/images/room/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
