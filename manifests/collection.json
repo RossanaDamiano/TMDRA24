@@ -1,0 +1,13 @@
+{
+  "id" : "https://RossanaDamiano.github.io/TMDRA24/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in RossanaDamiano/TMDRA24 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RossanaDamiano.github.io/TMDRA24/manifests/manifest_24.json",
+    "label" : "My 2024 manifest"
+  } ]
+}
