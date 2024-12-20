@@ -1,0 +1,46 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://RossanaDamiano.github.io/TMDRA24/manifests/manifestEgypt.json",
+  "@type" : "sc:Manifest",
+  "label" : "Example Manifest TMDRA 2024",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "an example manifest with an Egyptian find",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Rossana Damiano",
+  "sequences" : [ {
+    "@id" : "http://e7864d75-a7f2-403b-b3fb-7f7e68cd4742",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://8af388fb-1b06-4443-a288-20c4f30fd415",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas 1",
+      "height" : 424,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://26134319-b8fa-43d7-bb98-97db316360e3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://rossanadamiano.github.io/TMDRA24/images/egypt/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://rossanadamiano.github.io/TMDRA24/images/egypt",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 424,
+          "width" : 640
+        },
+        "on" : "http://8af388fb-1b06-4443-a288-20c4f30fd415"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
