@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://RossanaDamiano.github.io/TMDRA24/manifests/manifest_24.json",
     "label" : "My 2024 manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RossanaDamiano.github.io/TMDRA24/manifests/manifestEgypt.json",
+    "label" : "Example Manifest TMDRA 2024"
   } ]
 }
