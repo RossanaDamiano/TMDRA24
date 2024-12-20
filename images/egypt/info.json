@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 20,
+    "height" : 14
+  }, {
+    "width" : 40,
+    "height" : 27
+  }, {
+    "width" : 80,
+    "height" : 53
+  }, {
+    "width" : 160,
+    "height" : 106
+  }, {
+    "width" : 320,
+    "height" : 212
+  }, {
+    "width" : 640,
+    "height" : 424
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 640,
+  "@id" : "https://RossanaDamiano.github.io/TMDRA24/images/egypt",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 424
+}
