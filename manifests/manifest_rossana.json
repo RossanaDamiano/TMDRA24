@@ -1,0 +1,59 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://RossanaDamiano.github.io/TMDRA24/manifests/manifest_rossana.json",
+  "@type" : "sc:Manifest",
+  "label" : "an example manifest for TMDRA",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "An example manifest with a single canvas",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Rossana Damiano",
+  "sequences" : [ {
+    "@id" : "http://12070d74-7d1f-4b07-bceb-9dc248133207",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://fbbff278-abc9-48fd-afc8-b4c9139da552",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 426,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://01e4aa10-b822-4d9f-9b1b-f9f2d8c5c469",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://rossanadamiano.github.io/TMDRA23/images/cuneiform/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://rossanadamiano.github.io/TMDRA23/images/cuneiform",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 426,
+          "width" : 640
+        },
+        "on" : "http://fbbff278-abc9-48fd-afc8-b4c9139da552"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/34450560/b0a43dc3c5a18cb8ba89f8c6ed981d03.json",
+        "label" : "Annotations for canvas Empty canvas"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ],
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/34450560/c411aa6a7343902b93f303c624e7598a/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
