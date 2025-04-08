@@ -17,5 +17,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://RossanaDamiano.github.io/TMDRA24/manifests/manifest2.json",
     "label" : "Example Manifest TMDRA 2024"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RossanaDamiano.github.io/TMDRA24/manifests/manifest_rossana.json",
+    "label" : "an example manifest for TMDRA"
   } ]
 }
